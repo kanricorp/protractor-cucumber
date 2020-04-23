@@ -11,6 +11,7 @@ In order to successfully execute the test case you need to:
 3. Execute the command: `npm install`
 3.b if protractor is not recognized execute the command: `npm install protractor -g`
 4. In another terminal execute the command: `webdriver-manager update` then `webdriver-manager start` 
+![image](https://user-images.githubusercontent.com/57548352/80135275-64ae4880-8576-11ea-8649-0fb2b077442f.png)
 
 4.b. If when running step 5, there's an error 'driver.version unkown': 
       -Stop the webdriver (Ctrl c or Ctrl s)
