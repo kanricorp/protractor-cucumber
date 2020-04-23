@@ -23,4 +23,9 @@ In the terminal you should see something like this: "Selenium Server is up and r
       -Execute command `webdriver-manager update --versions.chrome {version} && webdriver-manager start` - replacing {version} with your version of chrome 
       
 5. In another terminal execute the command: `protractor cucumberConf.js`
+After this, you should see the browser opening and closing. 
+
+The cmd line will throw this if the test passed: 
+![image](https://user-images.githubusercontent.com/57548352/80135621-cec6ed80-8576-11ea-889f-b55b4ba6c606.png)
+
 
