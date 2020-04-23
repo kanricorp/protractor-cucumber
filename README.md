@@ -10,7 +10,8 @@ In order to successfully execute the test case you need to:
 2. Execute the command: `git clone https://github.com/kanricorp/protractor-cucumber.git`
 3. Execute the command: `npm install`
 3.b if protractor is not recognized execute the command: `npm install protractor -g`
-4. In another terminal execute the command: `webdriver-manager update && webdriver-manager start`
+4. In another terminal execute the command: `webdriver-manager update` then `webdriver-manager start` 
+
 4.b. If when running step 5, there's an error 'driver.version unkown': 
       -Stop the webdriver (Ctrl c or Ctrl s)
       -Go to Chrome and check the version (copy the version number)
